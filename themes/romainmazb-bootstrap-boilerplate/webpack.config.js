@@ -53,7 +53,7 @@ async function config()
             new browserSyncPlugin({
                 host: 'localhost',
                 port: 3000,
-                proxy: process.env.APP_URL + ':80'
+                proxy: process.env.APP_URL + ''
             }),
             new miniCSSExtractPlugin({
                 filename: 'assets/css/theme.css',
